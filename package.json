@@ -1,0 +1,32 @@
+{
+  "name": "foodbridge-backend",
+  "version": "1.0.0",
+  "description": "Backend API for FoodBridge SA - connecting food donors with NGOs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "food",
+    "donation",
+    "api",
+    "south-africa"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
